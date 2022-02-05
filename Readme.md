@@ -36,16 +36,10 @@ The nodes in the network are connecting with the bootnode. This is a special eth
 
 There are three nodes that participate in the network. The state is synchronized between them and they are trying to create blocks with mining. Initially they connect to the bootnode with the information derived from the fixed IP and the nodekeyhex. If you want to interact with the network, you need to connect via RPC.
 
-The RPC Ports of the nodes are mapped to your localhost, the addresses are:
-
-- geth-dev-miner-1 : No RPC exposed
-- geth-dev-miner-2: No RPC exposed
-- geth-dev-node: [http://localhost:8545](http://localhost:8545)
-
 ## How to connect to the exposed RPC port via metaMask
 
 First Step : add the metaMask chrom extention and create an account
 
-Second Step : create a local test srver via metaMask then you will be conected to the get local network that we created via metamask
+Second Step : create a local test srver via metaMask then you will be conected to the get local network that we created via metamask using the exposed RPC URI : [http://localhost:8545](http://localhost:8545)
 
 Next step Idunno ...
