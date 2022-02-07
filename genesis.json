@@ -12,8 +12,5 @@
   },
   "difficulty": "1",
   "gasLimit": "12000000",
-  "alloc": {
-    "[Account #1 Address]": { "balance": "1000000000000000000" },
-    "[Account #2 Address]": { "balance": "2000000000000000000" }
-  }
+  "alloc": {}
 }
