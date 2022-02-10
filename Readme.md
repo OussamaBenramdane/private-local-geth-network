@@ -22,6 +22,14 @@ cd dockerApp
 
 Next you need to have docker installed and runnig in the background the run the command
 
+Build the image and name in geth-client
+
+```
+docker build -t geth-client .
+```
+
+then run docker compose to set up the structure
+
 ```
 docker-compose up -d
 ```
