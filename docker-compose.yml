@@ -9,7 +9,7 @@ services:
     build:
       context: .
       args:
-        - ACCOUNT_PASSWORD=${ACCOUNT_PASSWORD}
+        - ACCOUNT_PASSWORD=123
     command:
       --nodekeyhex="b0ac22adcad37213c7c565810a50f1772291e7b0ce53fb73e7ec2a3c75bc13b5"
       --nodiscover
